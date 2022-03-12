@@ -4,23 +4,6 @@ This analysis seeks to provide insights into ride accessibility and affordabilit
 
 After creating initial results, our analysis moves to a second phase where we make a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, we would create a multiple-line graph that shows the total weekly fares for each city type. Finally, we would summarize how the data differs by city type and how decision-makers can use those differences at PyBer to answer questions around ride accessibility and affordability.
 
-### Control Flow
-1. Import your data into a Pandas DataFrame.
-2. Inspect the data to dertermine the shape of the data, what types of columns are present, and if the data is readable or needs to be converted in some way.
-3. Merge your DataFrames.
-4. Create a bubble chart that showcases the average fare versus the total number of rides with bubble size based on the total number of drivers for each city type, including urban, suburban, and rural.
-5. Determine the mean, median, and mode for the following:
-    - The total number of rides for each city type.
-    - The average fares for each city type.
-    - The total number of drivers for each city type.
-6. Create box-and-whisker plots that visualize each of the following to determine if there are any outliers:
-    - The number of rides for each city type.
-    - The fares for each city type.
-    - The number of drivers for each city type.
-7. Create a pie chart that visualizes each of the following data for each city type:
-    - The percent of total fares.
-    - The percent of total rides.
-    - The percent of total drivers.
 
 ### Intial Findings
 1. A visual inspection of our bubble chart reveal that urban cities have the highest driver count and total number of rides. Conversely, rural cities with the lowest number of rides and smallest driver count have the highest fares.
